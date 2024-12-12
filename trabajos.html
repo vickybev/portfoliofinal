@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="styletrabajos.css">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Logo and homepage link -->
+      <a href="index.html" class="logo1">
+        <img src="./imagenes/STICKER .png" alt="logo1">
+      </a>
+
+      <!-- Scrollable list of links -->
+      <div class="links-container">
+        <a href="index.html">Pagina Principal</a>
+        <a href="sobremi.html">Sobre mi</a>
+        <a href="trabajos.html">Mis trabajos</a>
+        <a href="contacto.html">Contacto</a>
+
+      </div>
+    </header>
+
+    <div class="gallery-container">
+      <input type="radio" name="gallery" id="img1" checked>
+      <input type="radio" name="gallery" id="img2">
+      <input type="radio" name="gallery" id="img3">
+      <input type="radio" name="gallery" id="img4">
+
+      <div class="gallery-images">
+        <div class="image">
+          <label for="img4" class="prev">&lt;</label>
+          <img src="./imagenes/MOCKUP 11.jpg" alt="Logo 1">
+          <label for="img2" class="next">&gt;</label>
+        </div>
+        <div class="image">
+          <label for="img1" class="prev">&lt;</label>
+          <img src="./imagenes/comic1.jpg" alt="Logo 2">
+          <label for="img3" class="next">&gt;</label>
+        </div>
+        <div class="image">
+          <label for="img2" class="prev">&lt;</label>
+          <img src="./imagenes/chocolate.jpg" alt="Logo 3">
+          <label for="img4" class="next">&gt;</label>
+        </div>
+        <div class="image">
+          <label for="img3" class="prev">&lt;</label>
+          <img src="./imagenes/MOCKUP 1.jpg" alt="Logo 4">
+          <label for="img1" class="next">&gt;</label>
+        </div>
+      </div>
+
+      <div class="thumbnails">
+        <label for="img1"><img src="./imagenes/MOCKUP 11.jpg"
+            alt="Logo 1"></label>
+        <label for="img2"><img src="./imagenes/comic1.jpg" alt="Logo 2"></label>
+        <label for="img3"><img src="./imagenes/chocolate.jpg"
+            alt="Logo 3"></label>
+        <label for="img4"><img src="./imagenes/MOCKUP 1.jpg"
+            alt="Logo 4"></label>
+      </div>
+    </div>
+  </body>
+</html>

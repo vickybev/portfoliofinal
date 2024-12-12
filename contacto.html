@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="Stylecontacto.css">
+</head>
+<body>
+  <header>
+    <!-- Logo and homepage link -->
+    <a href="index.html" class="logo1">
+        <img src="./imagenes/STICKER .png" alt="logo1">
+    </a>
+
+    <!-- Scrollable list of links -->
+    <div class="links-container">
+        <a href="index.html">Pagina Principal</a>
+        <a href="sobremi.html">Sobre mi</a>
+        <a href="trabajos.html">Mis trabajos</a>
+        <a href="contacto.html">Contacto</a>
+       
+    </div>
+  </header>
+
+  <div class="container">
+    <form class="contact-form" action="#" method="post">
+      <h2>PONTE EN CONTACTO CONMIGO</h2>
+      <p>Por favor, completa el formulario y te responderé lo antes posible.</p>
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Telefono</label>
+        <input type="phone" id="phone" name="phone" placeholder="+598 99 999 999" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

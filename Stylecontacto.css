@@ -1,0 +1,173 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  justify-items: flex-end;
+  background-color: #ff6347;
+  padding: 10px 20px;
+  color: white;
+  
+}
+
+/* Logo Styling */
+.logo1 {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color: white;
+  justify-items:left;
+}
+
+.logo1 img {
+  max-width: 8%;
+}
+
+/* Scrollable Links Container */
+.links-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  align-items: right;
+}
+
+/* Individual Link Styling */
+.links-container a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  padding: 8px 15px;
+  background-color: #ff6347;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.links-container a:hover {
+  background-color: #777777;
+}
+
+/* Custom Scrollbar Styling */
+.links-container::-webkit-scrollbar {
+  height: 5px;
+}
+
+.links-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.links-container::-webkit-scrollbar-thumb:hover {
+  background-color: #1D1D1B;
+}
+
+body {
+  background: #283270;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position:relative;
+  justify-content: center;
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #333;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #ff6347;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #283270;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+}
+
+header {
+  background-color: #283270;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+
+}
+

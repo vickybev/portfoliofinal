@@ -1,0 +1,181 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Reset and Body Styling */
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+    background-color: #ff6347;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Logo Styling */
+.logo1 {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+    justify-items:left;
+}
+
+.logo1 img {
+    max-width: 8%;
+}
+
+/* Scrollable Links Container */
+.links-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    align-items: right;
+}
+
+/* Individual Link Styling */
+.links-container a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 8px 15px;
+    background-color: #ff6347;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.links-container a:hover {
+    background-color: #777777;
+}
+
+/* Custom Scrollbar Styling */
+.links-container::-webkit-scrollbar {
+    height: 5px;
+}
+
+.links-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.links-container::-webkit-scrollbar-thumb:hover {
+    background-color: #1D1D1B;
+}
+
+header {
+    background-color: #283270;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #283270;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    animation: bounce 1s infinite;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+    margin-top: 50px;
+}
+
+.nombre {
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.button {
+    display: flex;
+    align-self: center;
+    background-color: #ff6347;
+    color: white;
+    padding: 70px 70px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.button:hover {
+    background-color: #1D1D1B;
+}
+
+.content {
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.imagen-perfil {
+    display: flex;
+    width: 800px;
+    height: auto;
+    cursor: pointer;
+    justify-content: center;
+    object-position: center;
+    margin: auto;
+    margin-top: 30px;
+}
